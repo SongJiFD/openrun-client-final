@@ -64,7 +64,7 @@ export default function ApolloSetting(props: IApolloSettingProps) {
     }
   });
   const uploadLink = createUploadLink({
-    uri: "https://openrunbackend.shop/graphql",
+    uri: "https://openrun.brian-hong.tech/graphql",
     headers: { Authorization: `Bearer ${accessToken}` },
     credentials: "include",
   });

@@ -34,7 +34,7 @@ export default function LiveChat() {
     variables: { boardId: router.query.id },
   });
 
-  const socket = io("https://openrunbackend.shop/chat");
+  const socket = io("https://openrun.brian-hong.tech/chat");
 
   const { register, handleSubmit, resetField } = useForm({
     mode: "onChange",

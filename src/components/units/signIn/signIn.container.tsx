@@ -64,15 +64,15 @@ export default function SignIn() {
   };
 
   const onClickNaver = () => {
-    router.push("https://openrunbackend.shop/login/naver");
+    router.push("https://openrun.brian-hong.tech/login/naver");
   };
 
   const onClickGoolge = () => {
-    router.push("https://openrunbackend.shop/login/google");
+    router.push("https://openrun.brian-hong.tech/login/google");
   };
 
   const onClickKakao = () => {
-    router.push("https://openrunbackend.shop/login/kakao");
+    router.push("https://openrun.brian-hong.tech/login/kakao");
   };
 
   return (

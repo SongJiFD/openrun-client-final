@@ -82,7 +82,7 @@ export default function MypageWrittenBoards() {
     console.log(boardId);
     try {
       const graphQlClient = new GraphQLClient(
-        "https://openrunbackend.shop/graphql",
+        "https://openrun.brian-hong.tech/graphql",
         {
           credentials: "include",
           headers: { Authorization: `Bearer ${accessToken}` },
@@ -131,7 +131,7 @@ export default function MypageWrittenBoards() {
     setBoardId(boardId);
     try {
       const graphQlClient = new GraphQLClient(
-        "https://openrunbackend.shop/graphql",
+        "https://openrun.brian-hong.tech/graphql",
         {
           credentials: "include",
           headers: { Authorization: `Bearer ${accessToken}` },

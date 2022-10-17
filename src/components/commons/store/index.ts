@@ -51,12 +51,12 @@ export const userInfoValue = atom({
 });
 
 export const logoutState = atom({
-  key: "logoutState",
+  key: `logoutState/${v1()}`,
   default: false,
 });
 
 export const notificationValue = atom({
-  key: "notificationValue",
+  key: `notificationValue/${v1()}`,
   default: {
     id: "",
     contents: "",
@@ -69,12 +69,12 @@ export const notificationValue = atom({
 });
 
 export const onClickState = atom({
-  key: "onClickState",
+  key: `onClickState/${v1()}`,
   default: false,
 });
 
 export const modalInputState = atom({
-  key: "modalInputState",
+  key: `modalInputState/${v1()}`,
   default: "",
 });
 
