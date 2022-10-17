@@ -8,7 +8,6 @@ export const FETCH_EVENT = gql`
       contentsImage {
         id
         url
-        event
       }
       period
       location
