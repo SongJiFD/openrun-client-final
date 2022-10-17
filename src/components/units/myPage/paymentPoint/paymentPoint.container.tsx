@@ -59,7 +59,7 @@ export default function MypagePaymentPoint() {
         buyer_email: userInfo.email,
         buyer_name: userInfo.nickName,
         buyer_tel: userInfo.phone,
-        m_redirect_url: "http://localhost:3000/",
+        m_redirect_url: "https://sancheck.shop/",
       },
       async (rsp: any) => {
         if (rsp.success) {
