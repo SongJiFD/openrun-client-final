@@ -38,11 +38,11 @@ export default function LayoutMyPage() {
         <s.ProfileUser>
           {userInfo?.profileImg ? (
             <s.ProfileImg
-              src={`https://storage.googleapis.com/openrun-sub/${userInfo?.profileImg}`}
+              src={`https://s3.brian-hong.tech/openrun/${userInfo?.profileImg}`}
             />
           ) : (
             <s.ProfileImg
-              src={`https://storage.googleapis.com/openrun-sub/profile/2022-09-21/54776adb-634b-43da-8b90-ebe9ef19c6e8/origin/Smile-Emoticon-Transparent-PNG.png`}
+              src={`https://s3.brian-hong.tech/openrun/profile/2022-09-21/54776adb-634b-43da-8b90-ebe9ef19c6e8/origin/Smile-Emoticon-Transparent-PNG.png`}
             />
           )}
 

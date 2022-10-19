@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  openrun-client:
+    container_name: openrun-client
+    image: reg.brian-hong.tech/openrun-client/openrun-client:latest
+    restart: always
+    environments:
+      - TZ=Asia/Seoul
+    ports:
+      - 3000:3000
+    networks:
+      - openrun
+
+networks:
+  openrun:

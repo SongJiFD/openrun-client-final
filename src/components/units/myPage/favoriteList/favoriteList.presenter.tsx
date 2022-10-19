@@ -51,7 +51,7 @@ export default function MypageFavoriteListUI(props: any) {
                   <s.BoardImg
                     src={
                       el.board?.image
-                        ? `https://storage.googleapis.com/openrun-sub/${el.board?.image}`
+                        ? `https://s3.brian-hong.tech/openrun/${el.board?.image}`
                         : "/img/noimage.png"
                     }
                   />

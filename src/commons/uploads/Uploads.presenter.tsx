@@ -6,7 +6,7 @@ export default function UploadUI(props: any) {
       {props.fileUrl ? (
         <UploadImage
           onClick={props.onClickUpload}
-          src={`https://storage.googleapis.com/openrun-sub/${props.fileUrl}`}
+          src={`https://s3.brian-hong.tech/openrun/${props.fileUrl}`}
         />
       ) : (
         <UploadButton type="button" onClick={props.onClickUpload}>

@@ -46,7 +46,7 @@ export default function BoardDetailUI(props: BoardDetailUIProps) {
             <s.Image
               src={
                 props.data?.fetchBoard?.image
-                  ? `https://storage.googleapis.com/openrun-sub/${props.data?.fetchBoard?.image}`
+                  ? `https://s3.brian-hong.tech/openrun/${props.data?.fetchBoard?.image}`
                   : "/boardList/default.jpeg"
               }
             />
@@ -211,8 +211,8 @@ export default function BoardDetailUI(props: BoardDetailUIProps) {
                           <s.RunnerIcon
                             src={
                               el?.user?.profileImg
-                                ? `https://storage.googleapis.com/openrun-sub/${el?.user?.profileImg}`
-                                : `https://storage.googleapis.com/openrun-sub/profile/2022-09-21/54776adb-634b-43da-8b90-ebe9ef19c6e8/origin/Smile-Emoticon-Transparent-PNG.png`
+                                ? `https://s3.brian-hong.tech/openrun/${el?.user?.profileImg}`
+                                : `https://s3.brian-hong.tech/openrun/profile/2022-09-21/54776adb-634b-43da-8b90-ebe9ef19c6e8/origin/Smile-Emoticon-Transparent-PNG.png`
                             }
                           />
                         </s.IconWrapper>
