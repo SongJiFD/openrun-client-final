@@ -5,7 +5,7 @@ services:
     container_name: openrun-client
     image: reg.brian-hong.tech/openrun-client/openrun-client:latest
     restart: always
-    environments:
+    environment:
       - TZ=Asia/Seoul
     ports:
       - 3000:3000
