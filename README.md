@@ -31,6 +31,9 @@
 
 <p>1:1 매칭을 통한 오픈런(줄서기) 대행 서비스 플랫폼</p>
 https://sancheck.shop
+ID : aaa@aaa.com
+PW : Openrun1!
+
 <br>
 
 ## 🖥 기술 스택
