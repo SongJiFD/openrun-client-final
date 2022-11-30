@@ -30,7 +30,7 @@
 ## 🔗 Home Page
 
 <p>1:1 매칭을 통한 오픈런(줄서기) 대행 서비스 플랫폼</p>
-https://openrun.site
+https://sancheck.shop
 <br>
 
 ## 🖥 기술 스택
